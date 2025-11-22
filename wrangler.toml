@@ -1,4 +1,9 @@
-name = "v20251104"
+# wrangler.toml
+name = 'etnew'
 main = "_worker.js"
 compatibility_date = "2025-11-04"
+
 keep_vars = true
+kv_namespaces = [
+  { binding = "KV", id = "9f627f76265f4d7b85bf5956a5019830" }
+]
